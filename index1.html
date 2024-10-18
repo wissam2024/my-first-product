@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Table</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <a href="index2.html">cecond page</a>
+
+<h2 style="text-align: center;">Personal Information</h2>
+
+<table>
+    <!-- دمج الأعمدة لعنوان الجدول -->
+    <tr>
+        <th colspan="2">Personal Information</th>
+    </tr>
+
+    <!-- الصف الخاص بالصورة -->
+    <tr>
+        <td rowspan="3" style="text-align: center;">
+            <img src="imag/ad9f5be0fd95eec4648849936097f4a6.jpg" alt="Profile Picture">
+        </td>
+        <td>Name: wissam alathwari</td>
+    </tr>
+
+    <!-- صف العمر -->
+    <tr>
+        <td>Age: 20</td>
+    </tr>
+
+    <!-- صف البريد الإلكتروني -->
+    <tr>
+        <td>Email: wissamalathwari8.com</td>
+    </tr>
+
+    <!-- دمج الأعمدة لمعلومات إضافية -->
+    <tr>
+        <td colspan="2">Additional Information: wissam is a software developer with 1 year of experience in web development.</td>
+    </tr>
+</table>
+
+</body>
+</html>
